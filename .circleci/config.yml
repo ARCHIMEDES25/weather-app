@@ -10,6 +10,9 @@ jobs:
     working_directory: ~/repo
 
     steps:
+      - add_ssh_keys:
+          fingerprints:
+            - '36:0a:9c:f6:41:cd:67:af:cd:c2:56:93:24:60:8d:ea'
       - checkout
 
       - restore_cache:
@@ -25,3 +28,12 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       - run: npm test
+
+      - deploy:
+          name: Deploy
+          command: |
+            export GH_EMAIL="archimedes25@outlook.com"
+            export GH_NAME="archimedes25"
+            git config --global user.email $GH_EMAIL
+            git config --global user.name $GH_NAME
+            npm run deploy
