@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App component should render as expected 1`] = `
+exports[`App component should load forecast data into state with correct shape 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <App />,
@@ -17,11 +17,136 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": " weather app",
+      "children": Array [
+        <header>
+          <h1
+            className="title"
+          >
+            Edinburgh forecast
+          </h1>
+        </header>,
+        <div
+          className="forecast"
+        >
+          <WeatherInfo
+            date="2018-10-15"
+            temperature={
+              Object {
+                "average": 7.95,
+                "max": 12.09,
+                "min": 6.12,
+              }
+            }
+          />
+          <WeatherInfo
+            date="2018-10-16"
+            temperature={
+              Object {
+                "average": 7.95,
+                "max": 25.14,
+                "min": 5.01,
+              }
+            }
+          />
+        </div>,
+      ],
       "className": "app",
     },
     "ref": null,
-    "rendered": " weather app",
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h1
+            className="title"
+          >
+            Edinburgh forecast
+          </h1>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Edinburgh forecast",
+            "className": "title",
+          },
+          "ref": null,
+          "rendered": "Edinburgh forecast",
+          "type": "h1",
+        },
+        "type": "header",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <WeatherInfo
+              date="2018-10-15"
+              temperature={
+                Object {
+                  "average": 7.95,
+                  "max": 12.09,
+                  "min": 6.12,
+                }
+              }
+            />,
+            <WeatherInfo
+              date="2018-10-16"
+              temperature={
+                Object {
+                  "average": 7.95,
+                  "max": 25.14,
+                  "min": 5.01,
+                }
+              }
+            />,
+          ],
+          "className": "forecast",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "2018-10-15",
+            "nodeType": "function",
+            "props": Object {
+              "date": "2018-10-15",
+              "temperature": Object {
+                "average": 7.95,
+                "max": 12.09,
+                "min": 6.12,
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "2018-10-16",
+            "nodeType": "function",
+            "props": Object {
+              "date": "2018-10-16",
+              "temperature": Object {
+                "average": 7.95,
+                "max": 25.14,
+                "min": 5.01,
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
     "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -30,11 +155,136 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": " weather app",
+        "children": Array [
+          <header>
+            <h1
+              className="title"
+            >
+              Edinburgh forecast
+            </h1>
+          </header>,
+          <div
+            className="forecast"
+          >
+            <WeatherInfo
+              date="2018-10-15"
+              temperature={
+                Object {
+                  "average": 7.95,
+                  "max": 12.09,
+                  "min": 6.12,
+                }
+              }
+            />
+            <WeatherInfo
+              date="2018-10-16"
+              temperature={
+                Object {
+                  "average": 7.95,
+                  "max": 25.14,
+                  "min": 5.01,
+                }
+              }
+            />
+          </div>,
+        ],
         "className": "app",
       },
       "ref": null,
-      "rendered": " weather app",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h1
+              className="title"
+            >
+              Edinburgh forecast
+            </h1>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Edinburgh forecast",
+              "className": "title",
+            },
+            "ref": null,
+            "rendered": "Edinburgh forecast",
+            "type": "h1",
+          },
+          "type": "header",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <WeatherInfo
+                date="2018-10-15"
+                temperature={
+                  Object {
+                    "average": 7.95,
+                    "max": 12.09,
+                    "min": 6.12,
+                  }
+                }
+              />,
+              <WeatherInfo
+                date="2018-10-16"
+                temperature={
+                  Object {
+                    "average": 7.95,
+                    "max": 25.14,
+                    "min": 5.01,
+                  }
+                }
+              />,
+            ],
+            "className": "forecast",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "2018-10-15",
+              "nodeType": "function",
+              "props": Object {
+                "date": "2018-10-15",
+                "temperature": Object {
+                  "average": 7.95,
+                  "max": 12.09,
+                  "min": 6.12,
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "2018-10-16",
+              "nodeType": "function",
+              "props": Object {
+                "date": "2018-10-16",
+                "temperature": Object {
+                  "average": 7.95,
+                  "max": 25.14,
+                  "min": 5.01,
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
       "type": "div",
     },
   ],

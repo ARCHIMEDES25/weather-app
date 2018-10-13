@@ -44,7 +44,8 @@ export const transform = (forecast = []) =>
 export const getForecast = async cityName => {
   try {
     const response = await fetch(openWeatherUrlBy(cityName), fetchInit());
-    return transform(response.json().list);
+    const data = await response.json();
+    return transform(data.list);
   } catch (error) {
     /* eslint-disable no-console */
     return console.warn('Failed to retrieve forecast information', error);
