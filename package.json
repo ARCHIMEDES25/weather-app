@@ -23,7 +23,7 @@
     "precommit": "lint-staged",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=node",
+    "test": "react-scripts test --env=node a",
     "eject": "react-scripts eject",
     "lint": "eslint \"src/**/*.{js,jsx,json}\""
   },
