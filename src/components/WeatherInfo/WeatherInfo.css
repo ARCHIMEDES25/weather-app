@@ -1,0 +1,37 @@
+.weather-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 55%;
+  padding: 10px;
+  margin: 10px;
+  background-color: #e1f1ff;
+  border-radius: 10px;
+}
+
+.weather-info:hover {
+  opacity: 0.7;
+}
+
+.weather-info .date {
+  color: #009061;
+  margin: 10px;
+}
+
+.weather-info .temperature-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.weather-info .temperature-info span {
+  color: #00dac3;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 576px) {
+  .weather-info {
+    width: 80%;
+  }
+}

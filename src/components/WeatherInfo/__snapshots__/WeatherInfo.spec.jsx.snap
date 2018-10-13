@@ -1,0 +1,292 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WeatherInfo component should render as expected 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <WeatherInfo
+    date="2018-10-13"
+    temperature={
+      Object {
+        "average": 12.15,
+        "max": 14.2,
+        "min": 8.14,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2
+          className="date"
+        >
+          2018-10-13
+        </h2>,
+        <div
+          className="temperature-info"
+        >
+          <span>
+            average: 
+            12.15
+          </span>
+          <span>
+            max: 
+            14.2
+          </span>
+          <span>
+            min: 
+            8.14
+          </span>
+        </div>,
+      ],
+      "className": "weather-info",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "2018-10-13",
+          "className": "date",
+        },
+        "ref": null,
+        "rendered": "2018-10-13",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span>
+              average: 
+              12.15
+            </span>,
+            <span>
+              max: 
+              14.2
+            </span>,
+            <span>
+              min: 
+              8.14
+            </span>,
+          ],
+          "className": "temperature-info",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "average: ",
+                12.15,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "average: ",
+              12.15,
+            ],
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "max: ",
+                14.2,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "max: ",
+              14.2,
+            ],
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "min: ",
+                8.14,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "min: ",
+              8.14,
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2
+            className="date"
+          >
+            2018-10-13
+          </h2>,
+          <div
+            className="temperature-info"
+          >
+            <span>
+              average: 
+              12.15
+            </span>
+            <span>
+              max: 
+              14.2
+            </span>
+            <span>
+              min: 
+              8.14
+            </span>
+          </div>,
+        ],
+        "className": "weather-info",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "2018-10-13",
+            "className": "date",
+          },
+          "ref": null,
+          "rendered": "2018-10-13",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span>
+                average: 
+                12.15
+              </span>,
+              <span>
+                max: 
+                14.2
+              </span>,
+              <span>
+                min: 
+                8.14
+              </span>,
+            ],
+            "className": "temperature-info",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "average: ",
+                  12.15,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "average: ",
+                12.15,
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "max: ",
+                  14.2,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "max: ",
+                14.2,
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "min: ",
+                  8.14,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "min: ",
+                8.14,
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

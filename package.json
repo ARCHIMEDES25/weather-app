@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "lint-staged": {
-    "src/**/*.{js, jsx,json,scss,css}": [
+    "src/**/*.{js, jsx,json}": [
       "eslint --fix",
       "prettier --config .prettierrc --write",
       "git add"
     ]
   },
   "dependencies": {
+    "prop-types": "^15.6.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-scripts": "2.0.4"
@@ -19,7 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=node",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint \"src/**/*.{js,jsx,json}\""
   },
   "eslintConfig": {
     "extends": "react-app"
